@@ -37,7 +37,7 @@
     transform: rotate(53deg);
 }
 
-h1 {
+.title {
     color: white;
     position: absolute;
     margin-left: auto;
@@ -49,4 +49,8 @@ h1 {
 
     z-index: 9999;
     font-size: 100px;
+}
+
+.textcontent {
+    height: 500px;
 }

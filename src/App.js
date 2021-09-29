@@ -7,9 +7,10 @@ import Parallax from 'react-rellax'
 function App() {
   return (
 
+      <div>
       
       <div className="App">
-      <h1>Welcome to Space</h1>
+      <h1 className="title">Welcome to Space</h1>
         <div className="left">
           <Parallax speed={ 10 }>
             <Man />
@@ -24,6 +25,13 @@ function App() {
         </Parallax>
         </div>
       </div>
+        <div className="textcontent">
+          <h1>Space is a vast place</h1>
+          <p>There are aliens out there so you gotta becareful!</p>
+        </div>
+
+      </div>
+
   );
 }
 
