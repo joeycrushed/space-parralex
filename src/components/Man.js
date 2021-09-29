@@ -7,8 +7,8 @@ import { motion } from "framer-motion"
 function Man() {
     return (
         <motion.div 
-            animate={{ x: [500, 0], y: [50, 100, 50, 100], rotate: 360 }}
-            transition={{ duration: 10, ease: "easeOut", yoyo: Infinity }}
+            animate={{ x: [0, 150], y: [150, 100, -150, 100], rotate: 360 }}
+            transition={{ duration: 30, ease: "easeOut", yoyo: Infinity }}
         >
             <img src={man} alt="" className="man_image"/>
         </motion.div>

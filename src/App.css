@@ -4,10 +4,11 @@
     min-height: 100vh;
     width: 100%;
     margin: auto;
-    background-color: black;
+    background: url(https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80) no-repeat center center fixed; 
+    background-size: cover;
 }
 .left {
-    padding: 30vh;
+    padding: 10vh;
     width: 40%;
 }
 
@@ -24,12 +25,28 @@
 
 .moon {
     height: 550px;
+    position: relative;
+    bottom: 75px;
+    left: 300px;
 }
 
 .rocket {
-    position: relative;
-    top: 10px;
-    left: -150px;
     height: 350px;
+    position: absolute;
+    bottom: -150px;
     transform: rotate(53deg);
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+
+    z-index: 9999;
+    font-size: 100px;
 }

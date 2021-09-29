@@ -6,8 +6,10 @@ import Parallax from 'react-rellax'
 
 function App() {
   return (
-      <div>
+
+      
       <div className="App">
+      <h1>Welcome to Space</h1>
         <div className="left">
           <Parallax speed={ 10 }>
             <Man />
@@ -22,7 +24,6 @@ function App() {
         </Parallax>
         </div>
       </div>
-    </div>
   );
 }
 

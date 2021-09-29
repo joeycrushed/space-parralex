@@ -6,7 +6,8 @@ import { motion } from 'framer-motion'
 function Rocket() {
     return (
         <motion.div
-        animate={{ rotate: 360 }}
+            animate={{ y: [15,-15]}}
+            transition={{ duration: 2, ease: "easeOut", yoyo: Infinity }}
 
         ><img src={rocket} alt="" className="rocket"/>
         </motion.div>
